@@ -1,0 +1,27 @@
+{
+  "fitbit": {
+    "appUUID": "3ee6b47c-8eac-4993-95d7-483042b6f14b",
+    "appType": "clockface",
+    "appDisplayName": "Emily",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Emily"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.0"
+  }
+}

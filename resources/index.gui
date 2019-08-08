@@ -1,0 +1,12 @@
+<svg class="background">
+  <text class="top left small" id="battery"></text>
+  <text class="top left-offset small" id="battery-offset"></text>
+  <text class="top right small" id="date"></text>
+  <text class="middle-v middle-h big" id="clock">00:00</text>
+  <svg class="bottom">
+    <image class="heart" href="heart.png" id="heartimg" />
+    <text class="hr small" id="heart"></text>
+    <text class="steps small" id="steps"></text>
+    <image class="shoe" href="foot.png" id="footimg" />
+  </svg>
+</svg>

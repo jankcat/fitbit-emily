@@ -1,0 +1,80 @@
+.background {
+  viewport-fill: black;
+}
+
+text {
+  text-length: 32;
+  fill: white;
+}
+
+.small {
+  font-size: 24;
+  font-family: Seville-Regular;
+}
+
+.big {
+  font-size: 120;
+  font-family: Seville-Book;
+  /*font-family: System-Bold;*/
+}
+
+.top {
+  y: 10%;
+}
+
+.bottom {
+  y: 86%;
+  width: 90%;
+  height: 15%;
+  x: 5%;
+}
+
+.left {
+  text-anchor: start;
+  x: 5%;
+}
+
+.left-offset {
+  text-anchor: start;
+  x: 16%;
+}
+
+.middle-h {
+  text-anchor: middle;
+  x: 50%;
+}
+
+.middle-v {
+  y: 50%+20;
+}
+
+.right {
+  text-anchor: end;
+  x: 95%;
+}
+
+.heart {
+  width: 26;
+  height: 26;
+  x: -4;
+  y: 2;
+}
+
+.hr {
+  text-anchor: start;
+  x: 26;
+  y: 23;
+}
+
+.steps {
+  text-anchor: end;
+  x: 95%;
+  y: 23;
+}
+
+.shoe {
+  width: 26;
+  height: 26;
+  x: 95%;
+  y: 2;
+}
